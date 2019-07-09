@@ -45,8 +45,8 @@ export default {
 		}
 	},
 	created () {
-		this.notes = this.$store.getters.getNotesList
-		this.grid = this.$store.getters.getGrid
+		this.notes = this.$store.state.notes.notesList
+		this.grid = this.$store.state.grid.grid
 	},
 	computed: {
 		notesFilter() {

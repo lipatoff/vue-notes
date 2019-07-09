@@ -13,8 +13,5 @@ export default{
 		}
 	},
 	getters: {
-		getGrid(state) {
-			return state.grid
-		}
 	}
 }

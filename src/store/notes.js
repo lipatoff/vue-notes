@@ -45,8 +45,5 @@ export default{
 		}
 	},
 	getters: {
-		getNotesList(state) {
-			return state.notesList
-		}
 	}
 }
